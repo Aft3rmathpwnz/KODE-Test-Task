@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherDayView">
+            <connections>
+                <outlet property="backgroundImageView" destination="Bh1-Nh-HTL" id="MVi-CH-kcu"/>
+                <outlet property="cityNameLabel" destination="ijx-Pa-yXk" id="JUd-wl-VoO"/>
+                <outlet property="conditionsLabel" destination="woi-Cg-Vmg" id="flY-1N-ahY"/>
+                <outlet property="hoursWeatherContainingView" destination="Hja-9h-xHJ" id="Lj8-xy-kvb"/>
+                <outlet property="temperatureLabel" destination="V09-AG-0pW" id="ORo-ko-DR0"/>
+                <outlet property="view" destination="iN0-l3-epB" id="aTe-TM-Dn3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudyBgImage" translatesAutoresizingMaskIntoConstraints="NO" id="Bh1-Nh-HTL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Belgorod" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijx-Pa-yXk">
+                    <rect key="frame" x="128" y="10" width="65" height="20"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V09-AG-0pW">
+                    <rect key="frame" x="123" y="30" width="74" height="77"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="64"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oE-ts-rOw">
+                    <rect key="frame" x="197" y="30" width="23" height="77"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="64"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="облачно" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woi-Cg-Vmg">
+                    <rect key="frame" x="128" y="107" width="64" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hja-9h-xHJ">
+                    <rect key="frame" x="0.0" y="147" width="320" height="48"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="RIG-KC-GYc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Hja-9h-xHJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="32K-Q5-okY"/>
+                <constraint firstItem="ijx-Pa-yXk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3rh-AQ-CP6"/>
+                <constraint firstItem="V09-AG-0pW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="87W-bZ-T6h"/>
+                <constraint firstAttribute="bottom" secondItem="Hja-9h-xHJ" secondAttribute="bottom" constant="20" id="9Mg-nw-odc"/>
+                <constraint firstItem="woi-Cg-Vmg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="IOc-40-to9"/>
+                <constraint firstItem="Bh1-Nh-HTL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RLI-tR-eRN"/>
+                <constraint firstItem="4oE-ts-rOw" firstAttribute="leading" secondItem="V09-AG-0pW" secondAttribute="trailing" id="TL8-Qh-nCg"/>
+                <constraint firstItem="Hja-9h-xHJ" firstAttribute="top" secondItem="woi-Cg-Vmg" secondAttribute="bottom" constant="20" id="c1X-he-xUI"/>
+                <constraint firstItem="woi-Cg-Vmg" firstAttribute="top" secondItem="V09-AG-0pW" secondAttribute="bottom" id="cbZ-1H-ssR"/>
+                <constraint firstAttribute="trailing" secondItem="Bh1-Nh-HTL" secondAttribute="trailing" id="ehg-hH-NT7"/>
+                <constraint firstItem="ijx-Pa-yXk" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fxm-Eg-Qh7"/>
+                <constraint firstAttribute="trailing" secondItem="Hja-9h-xHJ" secondAttribute="trailing" id="h5S-fb-sXx"/>
+                <constraint firstAttribute="bottom" secondItem="Bh1-Nh-HTL" secondAttribute="bottom" id="iKD-kk-GdR"/>
+                <constraint firstItem="Bh1-Nh-HTL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jCJ-jU-YPv"/>
+                <constraint firstItem="V09-AG-0pW" firstAttribute="top" secondItem="ijx-Pa-yXk" secondAttribute="bottom" id="oAQ-Jq-f03"/>
+                <constraint firstItem="4oE-ts-rOw" firstAttribute="centerY" secondItem="V09-AG-0pW" secondAttribute="centerY" id="vFC-yI-dpG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="34" y="119.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cloudyBgImage" width="320" height="215"/>
+    </resources>
+</document>

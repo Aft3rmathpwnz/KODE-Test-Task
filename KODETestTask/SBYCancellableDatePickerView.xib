@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SBYCancellableDatePickerView">
+            <connections>
+                <outlet property="dateLabel" destination="15G-u9-EjE" id="MeP-Zq-cgF"/>
+                <outlet property="directionKeyLabel" destination="OzY-Fj-4vv" id="yh2-8y-tCz"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ncu-CH-cIW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Туда" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzY-Fj-4vv">
+                    <rect key="frame" x="0.0" y="0.0" width="30" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="ZfY-EZ-QRJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.36862745099999999" green="0.52941176469999995" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 мая, сб" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15G-u9-EjE">
+                    <rect key="frame" x="0.0" y="23" width="62" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="T74-tC-gvA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCz-BV-BLg">
+                    <rect key="frame" x="103" y="9" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="GLi-S0-qgn"/>
+                        <constraint firstAttribute="height" constant="22" id="Jy0-xv-bgy"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="circledCancelButton"/>
+                    <connections>
+                        <action selector="cancelButtonTapped:" destination="-1" eventType="touchUpInside" id="rdp-67-WjK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.058823529411764705" green="0.33725490196078434" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="yCz-BV-BLg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="15G-u9-EjE" secondAttribute="trailing" constant="5" id="2S6-aY-1MP"/>
+                <constraint firstItem="OzY-Fj-4vv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4um-n4-Wvs"/>
+                <constraint firstItem="yCz-BV-BLg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OzY-Fj-4vv" secondAttribute="trailing" constant="5" id="BWz-Lm-1J2"/>
+                <constraint firstItem="15G-u9-EjE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EMu-8C-OWd"/>
+                <constraint firstAttribute="bottom" secondItem="15G-u9-EjE" secondAttribute="bottom" id="MwC-3M-hGJ"/>
+                <constraint firstAttribute="trailing" secondItem="yCz-BV-BLg" secondAttribute="trailing" id="RjE-oF-LZk"/>
+                <constraint firstItem="OzY-Fj-4vv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Uwe-4Q-oN7"/>
+                <constraint firstItem="yCz-BV-BLg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="j8d-5b-sYS"/>
+                <constraint firstItem="15G-u9-EjE" firstAttribute="top" secondItem="OzY-Fj-4vv" secondAttribute="bottom" constant="7" id="kjv-LV-whx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="aML-xa-g6a" appends="YES" id="Ju2-oP-GVs"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="aML-xa-g6a">
+            <connections>
+                <action selector="showPickerTapped:" destination="-1" id="EUl-A6-JyB"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="circledCancelButton" width="22" height="22"/>
+    </resources>
+</document>

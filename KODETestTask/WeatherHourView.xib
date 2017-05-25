@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherHourView">
+            <connections>
+                <outlet property="conditionsIconImageView" destination="gVQ-Dk-q64" id="Rxr-Y1-dcR"/>
+                <outlet property="hoursLabel" destination="Eap-fx-GiN" id="Hut-fN-jm4"/>
+                <outlet property="view" destination="iN0-l3-epB" id="uP3-4a-eq1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="22" height="47"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gVQ-Dk-q64">
+                    <rect key="frame" x="0.0" y="0.0" width="22" height="22"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="TV0-jV-yNi"/>
+                        <constraint firstAttribute="width" constant="22" id="heq-tT-lPC"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="L9I-FG-bCg" appends="YES" id="JTx-Nx-8Bv"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eap-fx-GiN">
+                    <rect key="frame" x="0.0" y="27" width="22" height="20"/>
+                    <gestureRecognizers/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="0gz-tR-qpn" appends="YES" id="CYy-Yf-POc"/>
+                    </connections>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gVQ-Dk-q64" secondAttribute="trailing" id="B2K-hp-X6w"/>
+                <constraint firstAttribute="bottom" secondItem="Eap-fx-GiN" secondAttribute="bottom" id="D6o-tr-whL"/>
+                <constraint firstItem="Eap-fx-GiN" firstAttribute="top" secondItem="gVQ-Dk-q64" secondAttribute="bottom" constant="5" id="EZh-oe-rfw"/>
+                <constraint firstItem="gVQ-Dk-q64" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JzA-ZF-NLL"/>
+                <constraint firstAttribute="trailing" secondItem="Eap-fx-GiN" secondAttribute="trailing" id="Qfa-U0-N9b"/>
+                <constraint firstItem="gVQ-Dk-q64" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jva-Ni-bEq"/>
+                <constraint firstItem="Eap-fx-GiN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nQH-57-qk7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="tch-eO-Tto" appends="YES" id="Wgx-dE-7dy"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="tch-eO-Tto">
+            <connections>
+                <action selector="weatherHourTapped:" destination="-1" id="S2I-Y7-K3i"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="L9I-FG-bCg">
+            <connections>
+                <action selector="weatherHourTapped:" destination="-1" id="zS9-bz-Pv3"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="0gz-tR-qpn">
+            <connections>
+                <action selector="weatherHourTapped:" destination="-1" id="QsP-En-0Mt"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="cloudyIcon" width="22" height="13"/>
+    </resources>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SBYUnfoldingPickerView">
+            <connections>
+                <outlet property="descriptionLabel" destination="msZ-nb-0bq" id="23N-ti-6hg"/>
+                <outlet property="pickerImageView" destination="OUX-t3-AqE" id="JfI-Dt-fp2"/>
+                <outlet property="titleTextField" destination="ecs-5W-UZ0" id="eDB-IR-STB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="tNG-UI-6m5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="229" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Откуда" textAlignment="natural" minimumFontSize="15" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ecs-5W-UZ0">
+                    <rect key="frame" x="30" y="0.0" width="199" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="yy5-Zt-gMJ"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="z8o-yR-qcK"/>
+                    </connections>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Все аэропорты" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msZ-nb-0bq">
+                    <rect key="frame" x="30" y="32" width="199" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="d7P-b1-jOK"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.36862745098039218" green="0.52941176470588236" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="departureDot" translatesAutoresizingMaskIntoConstraints="NO" id="OUX-t3-AqE">
+                    <rect key="frame" x="0.0" y="6" width="9" height="9"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="9" id="1qE-E0-Y7G"/>
+                        <constraint firstAttribute="width" constant="9" id="iL2-z8-sOb"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.058823529411764705" green="0.33725490196078434" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="0.058823529411764705" green="0.33725490196078434" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="OUX-t3-AqE" firstAttribute="centerY" secondItem="ecs-5W-UZ0" secondAttribute="centerY" id="6jx-zk-AGO"/>
+                <constraint firstItem="OUX-t3-AqE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Qo-kX-BG2"/>
+                <constraint firstItem="msZ-nb-0bq" firstAttribute="leading" secondItem="ecs-5W-UZ0" secondAttribute="leading" id="CDT-aR-n5f"/>
+                <constraint firstItem="msZ-nb-0bq" firstAttribute="top" secondItem="ecs-5W-UZ0" secondAttribute="bottom" constant="12" id="Gn4-cX-3JL"/>
+                <constraint firstAttribute="trailing" secondItem="msZ-nb-0bq" secondAttribute="trailing" id="IBT-Q8-Ver"/>
+                <constraint firstItem="ecs-5W-UZ0" firstAttribute="leading" secondItem="OUX-t3-AqE" secondAttribute="trailing" constant="21" id="mVb-Wc-TrX"/>
+                <constraint firstItem="ecs-5W-UZ0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uIx-lN-bTp"/>
+                <constraint firstAttribute="trailing" secondItem="ecs-5W-UZ0" secondAttribute="trailing" id="uPm-Mg-lnZ"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="msZ-nb-0bq" secondAttribute="bottom" id="xhW-XT-X1S"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="cbJ-aM-O1x" appends="YES" id="wfm-RL-UZT"/>
+            </connections>
+            <point key="canvasLocation" x="-26.5" y="334"/>
+        </view>
+        <tapGestureRecognizer id="cbJ-aM-O1x">
+            <connections>
+                <action selector="pickerTapped:" destination="-1" id="DmC-TT-MQe"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="departureDot" width="9" height="9"/>
+    </resources>
+</document>

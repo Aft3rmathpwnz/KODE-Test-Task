@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35FAC16901B3C4FC8B18F2C8 /* libPods-KODETestTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0043641FCBC36ABB09BDEDDA /* libPods-KODETestTask.a */; };
+		F41115A81ED6D57800F092DD /* AKASegmentedControl+Flights.m in Sources */ = {isa = PBXBuildFile; fileRef = F41115A71ED6D57800F092DD /* AKASegmentedControl+Flights.m */; };
+		F4159CDF1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4159CDE1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.m */; };
+		F4159CE11EC9EF5800DBA611 /* SBYCancellableDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4159CE01EC9EF5800DBA611 /* SBYCancellableDatePickerView.xib */; };
+		F4159CE41EC9F2FA00DBA611 /* SBYInitialDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4159CE31EC9F2FA00DBA611 /* SBYInitialDatePickerView.m */; };
+		F4159CE61EC9F30B00DBA611 /* SBYInitialDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4159CE51EC9F30B00DBA611 /* SBYInitialDatePickerView.xib */; };
+		F41B1B431ED21BEF00F4451A /* UIButton+tintImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B421ED21BEF00F4451A /* UIButton+tintImage.m */; };
+		F41B1B461ED24C9900F4451A /* CitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B451ED24C9900F4451A /* CitiesService.m */; };
+		F41B1B4A1ED3443400F4451A /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B491ED3443400F4451A /* WeatherService.m */; };
+		F41B1B4D1ED3463100F4451A /* FlightCity.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B4C1ED3463100F4451A /* FlightCity.m */; };
+		F41B1B501ED48AB800F4451A /* WeatherDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B4F1ED48AB800F4451A /* WeatherDayView.m */; };
+		F41B1B521ED48AC400F4451A /* WeatherDayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41B1B511ED48AC400F4451A /* WeatherDayView.xib */; };
+		F41B1B551ED4928600F4451A /* WeatherDay.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B541ED4928600F4451A /* WeatherDay.m */; };
+		F41B1B581ED494C200F4451A /* WeatherHourView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B571ED494C200F4451A /* WeatherHourView.m */; };
+		F41B1B5A1ED494CD00F4451A /* WeatherHourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41B1B591ED494CD00F4451A /* WeatherHourView.xib */; };
+		F41B1B5D1ED497AC00F4451A /* WeatherDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B5C1ED497AC00F4451A /* WeatherDayViewController.m */; };
+		F41B1B601ED49C2A00F4451A /* WeatherHour.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B1B5F1ED49C2A00F4451A /* WeatherHour.m */; };
+		F41ED30D1ECB67BC00302FD7 /* SBYAbstractDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41ED30C1ECB67BC00302FD7 /* SBYAbstractDatePickerView.m */; };
+		F420E5B71EC8F4D200D51B65 /* UITableView+UnfoldingPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F420E5B61EC8F4D200D51B65 /* UITableView+UnfoldingPicker.m */; };
+		F420E5BF1EC9AB9500D51B65 /* SBYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F420E5BD1EC9AB9500D51B65 /* SBYDatePicker.m */; };
+		F420E5C31EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F420E5C21EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.m */; };
+		F420E5C51EC9B46C00D51B65 /* SBYNonCancellableDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F420E5C41EC9B46C00D51B65 /* SBYNonCancellableDatePickerView.xib */; };
+		F43001A41EC4A99A00DBEBD2 /* SBYUnfoldingPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F43001A31EC4A99A00DBEBD2 /* SBYUnfoldingPicker.m */; };
+		F43001A91EC724D300DBEBD2 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43001A71EC724D300DBEBD2 /* CityTableViewCell.m */; };
+		F43001AA1EC724D300DBEBD2 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43001A81EC724D300DBEBD2 /* CityTableViewCell.xib */; };
+		F43129541EBFD629002DBEB6 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F43129531EBFD629002DBEB6 /* UIViewController+Utils.m */; };
+		F43129571EC0CAC3002DBEB6 /* SBYUnfoldingPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F43129561EC0CAC3002DBEB6 /* SBYUnfoldingPickerView.m */; };
+		F431295D1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F431295C1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.m */; };
+		F43129601EC1ABBF002DBEB6 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F431295F1EC1ABBF002DBEB6 /* UIColor+Hex.m */; };
+		F43129631EC1FE12002DBEB6 /* CityPickerTableHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F43129621EC1FE12002DBEB6 /* CityPickerTableHandler.m */; };
+		F43382BA1ED4F69D00AEBF12 /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F43382B91ED4F69D00AEBF12 /* UIImageEffects.m */; };
+		F43382BF1ED5ACE400AEBF12 /* WeatherDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43382BE1ED5ACE400AEBF12 /* WeatherDayTableViewCell.m */; };
+		F43382C21ED5B53400AEBF12 /* WeatherDayTableHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F43382C11ED5B53400AEBF12 /* WeatherDayTableHandler.m */; };
+		F43B6F7F1ECF6F1500848DAB /* FlightAlertsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F43B6F7E1ECF6F1500848DAB /* FlightAlertsManager.m */; };
+		F44958371ED0E1B7007EABED /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F44958361ED0E1B7007EABED /* APIClient.m */; };
+		F449583B1ED0E5B5007EABED /* FoundFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F449583A1ED0E5B5007EABED /* FoundFlightsViewController.m */; };
+		F449583E1ED0F147007EABED /* FoundFlightsTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F449583D1ED0F147007EABED /* FoundFlightsTitleView.m */; };
+		F44958401ED0F198007EABED /* FoundFlightsTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F449583F1ED0F198007EABED /* FoundFlightsTitleView.xib */; };
+		F46ED8F51ECB145000306699 /* SBYModalDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F46ED8F31ECB145000306699 /* SBYModalDatePicker.m */; };
+		F46ED8F61ECB145000306699 /* SBYModalDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46ED8F41ECB145000306699 /* SBYModalDatePicker.xib */; };
+		F4D75F0A1ECB7D2E005564B7 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D75F091ECB7D2E005564B7 /* NSDate+Utils.m */; };
+		F4D75F121ECBB348005564B7 /* PassengersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D75F101ECBB348005564B7 /* PassengersViewController.m */; };
+		F4D75F131ECBB348005564B7 /* PassengersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D75F111ECBB348005564B7 /* PassengersViewController.xib */; };
+		F4D75F161ECBB504005564B7 /* SBYVerticalStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D75F151ECBB504005564B7 /* SBYVerticalStepperView.m */; };
+		F4D75F181ECBB522005564B7 /* SBYVerticalStepperView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D75F171ECBB522005564B7 /* SBYVerticalStepperView.xib */; };
+		F4DD79681EBD3BF4008D7EBE /* MainFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DD79661EBD3BF4008D7EBE /* MainFlightViewController.m */; };
+		F4DD796D1EBD4C69008D7EBE /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DD796C1EBD4C69008D7EBE /* UIView+Utils.m */; };
+		F4DD79711EBF4742008D7EBE /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DD796F1EBF4742008D7EBE /* RouteViewController.m */; };
+		F4DD79721EBF4742008D7EBE /* RouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DD79701EBF4742008D7EBE /* RouteViewController.xib */; };
+		F4DD797D1EBF4AEA008D7EBE /* SBYUnfoldingPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DD797B1EBF4AEA008D7EBE /* SBYUnfoldingPickerView.xib */; };
+		F4DD79811EBF693C008D7EBE /* TravelDatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DD797F1EBF693C008D7EBE /* TravelDatesViewController.m */; };
+		F4DD79821EBF693C008D7EBE /* TravelDatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DD79801EBF693C008D7EBE /* TravelDatesViewController.xib */; };
+		F4EE8AEE1EBD326C0089A03E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE8AED1EBD326C0089A03E /* main.m */; };
+		F4EE8AF11EBD326C0089A03E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE8AF01EBD326C0089A03E /* AppDelegate.m */; };
+		F4EE8AF71EBD326C0089A03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE8AF51EBD326C0089A03E /* Main.storyboard */; };
+		F4EE8AF91EBD326C0089A03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EE8AF81EBD326C0089A03E /* Assets.xcassets */; };
+		F4EE8AFC1EBD326C0089A03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE8AFA1EBD326C0089A03E /* LaunchScreen.storyboard */; };
+		F4F3A8C51ECB3F6F00903160 /* SBYDatePickerPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3A8C41ECB3F6F00903160 /* SBYDatePickerPresentationController.m */; };
+		F4F3A8C81ECB43C800903160 /* SBYDatePickerPresentationAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3A8C71ECB43C800903160 /* SBYDatePickerPresentationAnimationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0043641FCBC36ABB09BDEDDA /* libPods-KODETestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KODETestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5E1750D1F345A6273B13E3 /* Pods-KODETestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODETestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-KODETestTask/Pods-KODETestTask.release.xcconfig"; sourceTree = "<group>"; };
+		BB39B9F653F7413E56680B57 /* Pods-KODETestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KODETestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KODETestTask/Pods-KODETestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F41115A61ED6D57800F092DD /* AKASegmentedControl+Flights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AKASegmentedControl+Flights.h"; sourceTree = "<group>"; };
+		F41115A71ED6D57800F092DD /* AKASegmentedControl+Flights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AKASegmentedControl+Flights.m"; sourceTree = "<group>"; };
+		F4159CDD1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYCancellableDatePickerView.h; sourceTree = "<group>"; };
+		F4159CDE1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYCancellableDatePickerView.m; sourceTree = "<group>"; };
+		F4159CE01EC9EF5800DBA611 /* SBYCancellableDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYCancellableDatePickerView.xib; sourceTree = "<group>"; };
+		F4159CE21EC9F2FA00DBA611 /* SBYInitialDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYInitialDatePickerView.h; sourceTree = "<group>"; };
+		F4159CE31EC9F2FA00DBA611 /* SBYInitialDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYInitialDatePickerView.m; sourceTree = "<group>"; };
+		F4159CE51EC9F30B00DBA611 /* SBYInitialDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYInitialDatePickerView.xib; sourceTree = "<group>"; };
+		F41B1B411ED21BEF00F4451A /* UIButton+tintImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+tintImage.h"; sourceTree = "<group>"; };
+		F41B1B421ED21BEF00F4451A /* UIButton+tintImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+tintImage.m"; sourceTree = "<group>"; };
+		F41B1B441ED24C9900F4451A /* CitiesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesService.h; sourceTree = "<group>"; };
+		F41B1B451ED24C9900F4451A /* CitiesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesService.m; sourceTree = "<group>"; };
+		F41B1B471ED2527000F4451A /* SBYUnfoldingPickerDataSourceProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYUnfoldingPickerDataSourceProviderProtocol.h; sourceTree = "<group>"; };
+		F41B1B481ED3443400F4451A /* WeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherService.h; sourceTree = "<group>"; };
+		F41B1B491ED3443400F4451A /* WeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherService.m; sourceTree = "<group>"; };
+		F41B1B4B1ED3463100F4451A /* FlightCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCity.h; sourceTree = "<group>"; };
+		F41B1B4C1ED3463100F4451A /* FlightCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCity.m; sourceTree = "<group>"; };
+		F41B1B4E1ED48AB800F4451A /* WeatherDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDayView.h; sourceTree = "<group>"; };
+		F41B1B4F1ED48AB800F4451A /* WeatherDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDayView.m; sourceTree = "<group>"; };
+		F41B1B511ED48AC400F4451A /* WeatherDayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherDayView.xib; sourceTree = "<group>"; };
+		F41B1B531ED4928600F4451A /* WeatherDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDay.h; sourceTree = "<group>"; };
+		F41B1B541ED4928600F4451A /* WeatherDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDay.m; sourceTree = "<group>"; };
+		F41B1B561ED494C200F4451A /* WeatherHourView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherHourView.h; sourceTree = "<group>"; };
+		F41B1B571ED494C200F4451A /* WeatherHourView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherHourView.m; sourceTree = "<group>"; };
+		F41B1B591ED494CD00F4451A /* WeatherHourView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherHourView.xib; sourceTree = "<group>"; };
+		F41B1B5B1ED497AC00F4451A /* WeatherDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDayViewController.h; sourceTree = "<group>"; };
+		F41B1B5C1ED497AC00F4451A /* WeatherDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDayViewController.m; sourceTree = "<group>"; };
+		F41B1B5E1ED49C2A00F4451A /* WeatherHour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherHour.h; sourceTree = "<group>"; };
+		F41B1B5F1ED49C2A00F4451A /* WeatherHour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherHour.m; sourceTree = "<group>"; };
+		F41ED30B1ECB67BC00302FD7 /* SBYAbstractDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYAbstractDatePickerView.h; sourceTree = "<group>"; };
+		F41ED30C1ECB67BC00302FD7 /* SBYAbstractDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYAbstractDatePickerView.m; sourceTree = "<group>"; };
+		F420E5B51EC8F4D200D51B65 /* UITableView+UnfoldingPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+UnfoldingPicker.h"; sourceTree = "<group>"; };
+		F420E5B61EC8F4D200D51B65 /* UITableView+UnfoldingPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+UnfoldingPicker.m"; sourceTree = "<group>"; };
+		F420E5BC1EC9AB9500D51B65 /* SBYDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYDatePicker.h; sourceTree = "<group>"; };
+		F420E5BD1EC9AB9500D51B65 /* SBYDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYDatePicker.m; sourceTree = "<group>"; };
+		F420E5C11EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYNonCancellableDatePickerView.h; sourceTree = "<group>"; };
+		F420E5C21EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYNonCancellableDatePickerView.m; sourceTree = "<group>"; };
+		F420E5C41EC9B46C00D51B65 /* SBYNonCancellableDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYNonCancellableDatePickerView.xib; sourceTree = "<group>"; };
+		F43001A21EC4A99A00DBEBD2 /* SBYUnfoldingPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYUnfoldingPicker.h; sourceTree = "<group>"; };
+		F43001A31EC4A99A00DBEBD2 /* SBYUnfoldingPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYUnfoldingPicker.m; sourceTree = "<group>"; };
+		F43001A51EC4B1CB00DBEBD2 /* SBYUnfoldingPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYUnfoldingPickerView.h; sourceTree = "<group>"; };
+		F43001A61EC724D300DBEBD2 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		F43001A71EC724D300DBEBD2 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		F43001A81EC724D300DBEBD2 /* CityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		F43129521EBFD629002DBEB6 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		F43129531EBFD629002DBEB6 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		F43129561EC0CAC3002DBEB6 /* SBYUnfoldingPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYUnfoldingPickerView.m; sourceTree = "<group>"; };
+		F431295B1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYUnfoldingPickerController.h; sourceTree = "<group>"; };
+		F431295C1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYUnfoldingPickerController.m; sourceTree = "<group>"; };
+		F431295E1EC1ABBF002DBEB6 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F431295F1EC1ABBF002DBEB6 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F43129611EC1FE12002DBEB6 /* CityPickerTableHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerTableHandler.h; sourceTree = "<group>"; };
+		F43129621EC1FE12002DBEB6 /* CityPickerTableHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerTableHandler.m; sourceTree = "<group>"; };
+		F43382B81ED4F69D00AEBF12 /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		F43382B91ED4F69D00AEBF12 /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		F43382BD1ED5ACE400AEBF12 /* WeatherDayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDayTableViewCell.h; sourceTree = "<group>"; };
+		F43382BE1ED5ACE400AEBF12 /* WeatherDayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDayTableViewCell.m; sourceTree = "<group>"; };
+		F43382C01ED5B53400AEBF12 /* WeatherDayTableHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDayTableHandler.h; sourceTree = "<group>"; };
+		F43382C11ED5B53400AEBF12 /* WeatherDayTableHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDayTableHandler.m; sourceTree = "<group>"; };
+		F43B6F7D1ECF6F1500848DAB /* FlightAlertsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightAlertsManager.h; sourceTree = "<group>"; };
+		F43B6F7E1ECF6F1500848DAB /* FlightAlertsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightAlertsManager.m; sourceTree = "<group>"; };
+		F44958351ED0E1B7007EABED /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		F44958361ED0E1B7007EABED /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		F44958391ED0E5B5007EABED /* FoundFlightsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundFlightsViewController.h; sourceTree = "<group>"; };
+		F449583A1ED0E5B5007EABED /* FoundFlightsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundFlightsViewController.m; sourceTree = "<group>"; };
+		F449583C1ED0F147007EABED /* FoundFlightsTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundFlightsTitleView.h; sourceTree = "<group>"; };
+		F449583D1ED0F147007EABED /* FoundFlightsTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundFlightsTitleView.m; sourceTree = "<group>"; };
+		F449583F1ED0F198007EABED /* FoundFlightsTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoundFlightsTitleView.xib; sourceTree = "<group>"; };
+		F46ED8F21ECB145000306699 /* SBYModalDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYModalDatePicker.h; sourceTree = "<group>"; };
+		F46ED8F31ECB145000306699 /* SBYModalDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYModalDatePicker.m; sourceTree = "<group>"; };
+		F46ED8F41ECB145000306699 /* SBYModalDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYModalDatePicker.xib; sourceTree = "<group>"; };
+		F4D75F081ECB7D2E005564B7 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		F4D75F091ECB7D2E005564B7 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		F4D75F0B1ECBAF71005564B7 /* SBYDatePickerViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYDatePickerViewProtocol.h; sourceTree = "<group>"; };
+		F4D75F0F1ECBB348005564B7 /* PassengersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengersViewController.h; sourceTree = "<group>"; };
+		F4D75F101ECBB348005564B7 /* PassengersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengersViewController.m; sourceTree = "<group>"; };
+		F4D75F111ECBB348005564B7 /* PassengersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassengersViewController.xib; sourceTree = "<group>"; };
+		F4D75F141ECBB504005564B7 /* SBYVerticalStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYVerticalStepperView.h; sourceTree = "<group>"; };
+		F4D75F151ECBB504005564B7 /* SBYVerticalStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYVerticalStepperView.m; sourceTree = "<group>"; };
+		F4D75F171ECBB522005564B7 /* SBYVerticalStepperView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYVerticalStepperView.xib; sourceTree = "<group>"; };
+		F4DD79651EBD3BF4008D7EBE /* MainFlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFlightViewController.h; sourceTree = "<group>"; };
+		F4DD79661EBD3BF4008D7EBE /* MainFlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFlightViewController.m; sourceTree = "<group>"; };
+		F4DD796B1EBD4C69008D7EBE /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		F4DD796C1EBD4C69008D7EBE /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		F4DD796E1EBF4742008D7EBE /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		F4DD796F1EBF4742008D7EBE /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		F4DD79701EBF4742008D7EBE /* RouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteViewController.xib; sourceTree = "<group>"; };
+		F4DD797B1EBF4AEA008D7EBE /* SBYUnfoldingPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBYUnfoldingPickerView.xib; sourceTree = "<group>"; };
+		F4DD797E1EBF693C008D7EBE /* TravelDatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelDatesViewController.h; sourceTree = "<group>"; };
+		F4DD797F1EBF693C008D7EBE /* TravelDatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelDatesViewController.m; sourceTree = "<group>"; };
+		F4DD79801EBF693C008D7EBE /* TravelDatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelDatesViewController.xib; sourceTree = "<group>"; };
+		F4EE8AE91EBD326C0089A03E /* KODETestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KODETestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EE8AED1EBD326C0089A03E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4EE8AEF1EBD326C0089A03E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4EE8AF01EBD326C0089A03E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4EE8AF61EBD326C0089A03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4EE8AF81EBD326C0089A03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4EE8AFB1EBD326C0089A03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4EE8AFD1EBD326C0089A03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F3A8C31ECB3F6F00903160 /* SBYDatePickerPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYDatePickerPresentationController.h; sourceTree = "<group>"; };
+		F4F3A8C41ECB3F6F00903160 /* SBYDatePickerPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYDatePickerPresentationController.m; sourceTree = "<group>"; };
+		F4F3A8C61ECB43C800903160 /* SBYDatePickerPresentationAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBYDatePickerPresentationAnimationController.h; sourceTree = "<group>"; };
+		F4F3A8C71ECB43C800903160 /* SBYDatePickerPresentationAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBYDatePickerPresentationAnimationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EE8AE61EBD326C0089A03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FAC16901B3C4FC8B18F2C8 /* libPods-KODETestTask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED8A556F72FE9BB604588E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0043641FCBC36ABB09BDEDDA /* libPods-KODETestTask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DC1CB0B5AFFF7B3498DB2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB39B9F653F7413E56680B57 /* Pods-KODETestTask.debug.xcconfig */,
+				0E5E1750D1F345A6273B13E3 /* Pods-KODETestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F411159D1ED6437800F092DD /* Flight Info Story */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD79651EBD3BF4008D7EBE /* MainFlightViewController.h */,
+				F4DD79661EBD3BF4008D7EBE /* MainFlightViewController.m */,
+				F411159E1ED643DD00F092DD /* Route Story */,
+				F41115A21ED647FE00F092DD /* Travel Dates Story */,
+				F41115A51ED6D2F500F092DD /* Passengers Story */,
+				F43B6F7D1ECF6F1500848DAB /* FlightAlertsManager.h */,
+				F43B6F7E1ECF6F1500848DAB /* FlightAlertsManager.m */,
+			);
+			name = "Flight Info Story";
+			sourceTree = "<group>";
+		};
+		F411159E1ED643DD00F092DD /* Route Story */ = {
+			isa = PBXGroup;
+			children = (
+				F411159F1ED645C700F092DD /* Controllers */,
+				F41115A01ED646FD00F092DD /* Views */,
+				F420E5B81EC99C2D00D51B65 /* SBYUnfoldingPicker */,
+			);
+			name = "Route Story";
+			sourceTree = "<group>";
+		};
+		F411159F1ED645C700F092DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD796E1EBF4742008D7EBE /* RouteViewController.h */,
+				F4DD796F1EBF4742008D7EBE /* RouteViewController.m */,
+				F43129611EC1FE12002DBEB6 /* CityPickerTableHandler.h */,
+				F43129621EC1FE12002DBEB6 /* CityPickerTableHandler.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F41115A01ED646FD00F092DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD79701EBF4742008D7EBE /* RouteViewController.xib */,
+				F43001A61EC724D300DBEBD2 /* CityTableViewCell.h */,
+				F43001A71EC724D300DBEBD2 /* CityTableViewCell.m */,
+				F43001A81EC724D300DBEBD2 /* CityTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F41115A11ED6479B00F092DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F41B1B531ED4928600F4451A /* WeatherDay.h */,
+				F41B1B541ED4928600F4451A /* WeatherDay.m */,
+				F41B1B5E1ED49C2A00F4451A /* WeatherHour.h */,
+				F41B1B5F1ED49C2A00F4451A /* WeatherHour.m */,
+				F41B1B4B1ED3463100F4451A /* FlightCity.h */,
+				F41B1B4C1ED3463100F4451A /* FlightCity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F41115A21ED647FE00F092DD /* Travel Dates Story */ = {
+			isa = PBXGroup;
+			children = (
+				F4DD797E1EBF693C008D7EBE /* TravelDatesViewController.h */,
+				F4DD797F1EBF693C008D7EBE /* TravelDatesViewController.m */,
+				F4DD79801EBF693C008D7EBE /* TravelDatesViewController.xib */,
+				F41ED30A1ECB658D00302FD7 /* SBYDatePicker */,
+			);
+			name = "Travel Dates Story";
+			sourceTree = "<group>";
+		};
+		F41115A31ED64A2500F092DD /* Date Picker Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4D75F0B1ECBAF71005564B7 /* SBYDatePickerViewProtocol.h */,
+				F41ED30B1ECB67BC00302FD7 /* SBYAbstractDatePickerView.h */,
+				F41ED30C1ECB67BC00302FD7 /* SBYAbstractDatePickerView.m */,
+				F420E5C11EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.h */,
+				F420E5C21EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.m */,
+				F420E5C41EC9B46C00D51B65 /* SBYNonCancellableDatePickerView.xib */,
+				F4159CDD1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.h */,
+				F4159CDE1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.m */,
+				F4159CE01EC9EF5800DBA611 /* SBYCancellableDatePickerView.xib */,
+				F4159CE21EC9F2FA00DBA611 /* SBYInitialDatePickerView.h */,
+				F4159CE31EC9F2FA00DBA611 /* SBYInitialDatePickerView.m */,
+				F4159CE51EC9F30B00DBA611 /* SBYInitialDatePickerView.xib */,
+			);
+			name = "Date Picker Views";
+			sourceTree = "<group>";
+		};
+		F41115A41ED64ABA00F092DD /* Modal Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				F46ED8F21ECB145000306699 /* SBYModalDatePicker.h */,
+				F46ED8F31ECB145000306699 /* SBYModalDatePicker.m */,
+				F46ED8F41ECB145000306699 /* SBYModalDatePicker.xib */,
+				F4F3A8C31ECB3F6F00903160 /* SBYDatePickerPresentationController.h */,
+				F4F3A8C41ECB3F6F00903160 /* SBYDatePickerPresentationController.m */,
+				F4F3A8C61ECB43C800903160 /* SBYDatePickerPresentationAnimationController.h */,
+				F4F3A8C71ECB43C800903160 /* SBYDatePickerPresentationAnimationController.m */,
+			);
+			name = "Modal Date Picker";
+			sourceTree = "<group>";
+		};
+		F41115A51ED6D2F500F092DD /* Passengers Story */ = {
+			isa = PBXGroup;
+			children = (
+				F4D75F0F1ECBB348005564B7 /* PassengersViewController.h */,
+				F4D75F101ECBB348005564B7 /* PassengersViewController.m */,
+				F4D75F111ECBB348005564B7 /* PassengersViewController.xib */,
+				F4D75F141ECBB504005564B7 /* SBYVerticalStepperView.h */,
+				F4D75F151ECBB504005564B7 /* SBYVerticalStepperView.m */,
+				F4D75F171ECBB522005564B7 /* SBYVerticalStepperView.xib */,
+			);
+			name = "Passengers Story";
+			sourceTree = "<group>";
+		};
+		F41115A91ED6D71C00F092DD /* Found Flights Story */ = {
+			isa = PBXGroup;
+			children = (
+				F44958391ED0E5B5007EABED /* FoundFlightsViewController.h */,
+				F449583A1ED0E5B5007EABED /* FoundFlightsViewController.m */,
+				F41115AA1ED6D76B00F092DD /* Controllers */,
+				F41115AB1ED6D79000F092DD /* Views */,
+			);
+			name = "Found Flights Story";
+			sourceTree = "<group>";
+		};
+		F41115AA1ED6D76B00F092DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F41B1B5B1ED497AC00F4451A /* WeatherDayViewController.h */,
+				F41B1B5C1ED497AC00F4451A /* WeatherDayViewController.m */,
+				F43382C01ED5B53400AEBF12 /* WeatherDayTableHandler.h */,
+				F43382C11ED5B53400AEBF12 /* WeatherDayTableHandler.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F41115AB1ED6D79000F092DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F41115A61ED6D57800F092DD /* AKASegmentedControl+Flights.h */,
+				F41115A71ED6D57800F092DD /* AKASegmentedControl+Flights.m */,
+				F449583C1ED0F147007EABED /* FoundFlightsTitleView.h */,
+				F449583D1ED0F147007EABED /* FoundFlightsTitleView.m */,
+				F449583F1ED0F198007EABED /* FoundFlightsTitleView.xib */,
+				F41B1B4E1ED48AB800F4451A /* WeatherDayView.h */,
+				F41B1B4F1ED48AB800F4451A /* WeatherDayView.m */,
+				F41B1B511ED48AC400F4451A /* WeatherDayView.xib */,
+				F43382BD1ED5ACE400AEBF12 /* WeatherDayTableViewCell.h */,
+				F43382BE1ED5ACE400AEBF12 /* WeatherDayTableViewCell.m */,
+				F41B1B561ED494C200F4451A /* WeatherHourView.h */,
+				F41B1B571ED494C200F4451A /* WeatherHourView.m */,
+				F41B1B591ED494CD00F4451A /* WeatherHourView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F41ED30A1ECB658D00302FD7 /* SBYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F420E5BC1EC9AB9500D51B65 /* SBYDatePicker.h */,
+				F420E5BD1EC9AB9500D51B65 /* SBYDatePicker.m */,
+				F41115A31ED64A2500F092DD /* Date Picker Views */,
+				F41115A41ED64ABA00F092DD /* Modal Date Picker */,
+			);
+			name = SBYDatePicker;
+			sourceTree = "<group>";
+		};
+		F420E5B81EC99C2D00D51B65 /* SBYUnfoldingPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F43001A21EC4A99A00DBEBD2 /* SBYUnfoldingPicker.h */,
+				F43001A31EC4A99A00DBEBD2 /* SBYUnfoldingPicker.m */,
+				F43001A51EC4B1CB00DBEBD2 /* SBYUnfoldingPickerView.h */,
+				F43129561EC0CAC3002DBEB6 /* SBYUnfoldingPickerView.m */,
+				F4DD797B1EBF4AEA008D7EBE /* SBYUnfoldingPickerView.xib */,
+				F431295B1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.h */,
+				F431295C1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.m */,
+				F420E5B51EC8F4D200D51B65 /* UITableView+UnfoldingPicker.h */,
+				F420E5B61EC8F4D200D51B65 /* UITableView+UnfoldingPicker.m */,
+				F41B1B471ED2527000F4451A /* SBYUnfoldingPickerDataSourceProviderProtocol.h */,
+			);
+			name = SBYUnfoldingPicker;
+			sourceTree = "<group>";
+		};
+		F44958381ED0E1BF007EABED /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F44958351ED0E1B7007EABED /* APIClient.h */,
+				F44958361ED0E1B7007EABED /* APIClient.m */,
+				F41B1B441ED24C9900F4451A /* CitiesService.h */,
+				F41B1B451ED24C9900F4451A /* CitiesService.m */,
+				F41B1B481ED3443400F4451A /* WeatherService.h */,
+				F41B1B491ED3443400F4451A /* WeatherService.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F4DD796A1EBD4C5A008D7EBE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F41B1B411ED21BEF00F4451A /* UIButton+tintImage.h */,
+				F41B1B421ED21BEF00F4451A /* UIButton+tintImage.m */,
+				F43129521EBFD629002DBEB6 /* UIViewController+Utils.h */,
+				F43129531EBFD629002DBEB6 /* UIViewController+Utils.m */,
+				F4DD796B1EBD4C69008D7EBE /* UIView+Utils.h */,
+				F4DD796C1EBD4C69008D7EBE /* UIView+Utils.m */,
+				F431295E1EC1ABBF002DBEB6 /* UIColor+Hex.h */,
+				F431295F1EC1ABBF002DBEB6 /* UIColor+Hex.m */,
+				F4D75F081ECB7D2E005564B7 /* NSDate+Utils.h */,
+				F4D75F091ECB7D2E005564B7 /* NSDate+Utils.m */,
+				F43382B81ED4F69D00AEBF12 /* UIImageEffects.h */,
+				F43382B91ED4F69D00AEBF12 /* UIImageEffects.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F4EE8AE01EBD326B0089A03E = {
+			isa = PBXGroup;
+			children = (
+				F4EE8AEB1EBD326C0089A03E /* KODETestTask */,
+				F4EE8AEA1EBD326C0089A03E /* Products */,
+				4DC1CB0B5AFFF7B3498DB2B7 /* Pods */,
+				3ED8A556F72FE9BB604588E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EE8AEA1EBD326C0089A03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE8AE91EBD326C0089A03E /* KODETestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EE8AEB1EBD326C0089A03E /* KODETestTask */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE8AEF1EBD326C0089A03E /* AppDelegate.h */,
+				F4EE8AF01EBD326C0089A03E /* AppDelegate.m */,
+				F411159D1ED6437800F092DD /* Flight Info Story */,
+				F41115A91ED6D71C00F092DD /* Found Flights Story */,
+				F41115A11ED6479B00F092DD /* Models */,
+				F4DD796A1EBD4C5A008D7EBE /* Utils */,
+				F44958381ED0E1BF007EABED /* Networking */,
+				F4EE8AF51EBD326C0089A03E /* Main.storyboard */,
+				F4EE8AF81EBD326C0089A03E /* Assets.xcassets */,
+				F4EE8AFA1EBD326C0089A03E /* LaunchScreen.storyboard */,
+				F4EE8AFD1EBD326C0089A03E /* Info.plist */,
+				F4EE8AEC1EBD326C0089A03E /* Supporting Files */,
+			);
+			path = KODETestTask;
+			sourceTree = "<group>";
+		};
+		F4EE8AEC1EBD326C0089A03E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE8AED1EBD326C0089A03E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EE8AE81EBD326C0089A03E /* KODETestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EE8B001EBD326C0089A03E /* Build configuration list for PBXNativeTarget "KODETestTask" */;
+			buildPhases = (
+				19E8C82AE597A52049723AC7 /* [CP] Check Pods Manifest.lock */,
+				F4EE8AE51EBD326C0089A03E /* Sources */,
+				F4EE8AE61EBD326C0089A03E /* Frameworks */,
+				F4EE8AE71EBD326C0089A03E /* Resources */,
+				468157EC54ABF89A9E257001 /* [CP] Embed Pods Frameworks */,
+				1ACB20850608B11B654F5078 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KODETestTask;
+			productName = KODETestTask;
+			productReference = F4EE8AE91EBD326C0089A03E /* KODETestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EE8AE11EBD326B0089A03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = aft3rmath;
+				TargetAttributes = {
+					F4EE8AE81EBD326C0089A03E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A7W9WBAQL6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4EE8AE41EBD326B0089A03E /* Build configuration list for PBXProject "KODETestTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EE8AE01EBD326B0089A03E;
+			productRefGroup = F4EE8AEA1EBD326C0089A03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EE8AE81EBD326C0089A03E /* KODETestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EE8AE71EBD326C0089A03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44958401ED0F198007EABED /* FoundFlightsTitleView.xib in Resources */,
+				F4DD79821EBF693C008D7EBE /* TravelDatesViewController.xib in Resources */,
+				F4159CE61EC9F30B00DBA611 /* SBYInitialDatePickerView.xib in Resources */,
+				F4DD797D1EBF4AEA008D7EBE /* SBYUnfoldingPickerView.xib in Resources */,
+				F43001AA1EC724D300DBEBD2 /* CityTableViewCell.xib in Resources */,
+				F420E5C51EC9B46C00D51B65 /* SBYNonCancellableDatePickerView.xib in Resources */,
+				F41B1B521ED48AC400F4451A /* WeatherDayView.xib in Resources */,
+				F4EE8AFC1EBD326C0089A03E /* LaunchScreen.storyboard in Resources */,
+				F4EE8AF91EBD326C0089A03E /* Assets.xcassets in Resources */,
+				F4D75F131ECBB348005564B7 /* PassengersViewController.xib in Resources */,
+				F4D75F181ECBB522005564B7 /* SBYVerticalStepperView.xib in Resources */,
+				F46ED8F61ECB145000306699 /* SBYModalDatePicker.xib in Resources */,
+				F4DD79721EBF4742008D7EBE /* RouteViewController.xib in Resources */,
+				F41B1B5A1ED494CD00F4451A /* WeatherHourView.xib in Resources */,
+				F4159CE11EC9EF5800DBA611 /* SBYCancellableDatePickerView.xib in Resources */,
+				F4EE8AF71EBD326C0089A03E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E8C82AE597A52049723AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1ACB20850608B11B654F5078 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KODETestTask/Pods-KODETestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		468157EC54ABF89A9E257001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KODETestTask/Pods-KODETestTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EE8AE51EBD326C0089A03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43001A91EC724D300DBEBD2 /* CityTableViewCell.m in Sources */,
+				F41B1B551ED4928600F4451A /* WeatherDay.m in Sources */,
+				F4F3A8C81ECB43C800903160 /* SBYDatePickerPresentationAnimationController.m in Sources */,
+				F4DD79681EBD3BF4008D7EBE /* MainFlightViewController.m in Sources */,
+				F43129571EC0CAC3002DBEB6 /* SBYUnfoldingPickerView.m in Sources */,
+				F43382BF1ED5ACE400AEBF12 /* WeatherDayTableViewCell.m in Sources */,
+				F43382BA1ED4F69D00AEBF12 /* UIImageEffects.m in Sources */,
+				F41B1B501ED48AB800F4451A /* WeatherDayView.m in Sources */,
+				F4D75F0A1ECB7D2E005564B7 /* NSDate+Utils.m in Sources */,
+				F41B1B5D1ED497AC00F4451A /* WeatherDayViewController.m in Sources */,
+				F4D75F161ECBB504005564B7 /* SBYVerticalStepperView.m in Sources */,
+				F420E5C31EC9B44A00D51B65 /* SBYNonCancellableDatePickerView.m in Sources */,
+				F41115A81ED6D57800F092DD /* AKASegmentedControl+Flights.m in Sources */,
+				F431295D1EC1AA81002DBEB6 /* SBYUnfoldingPickerController.m in Sources */,
+				F4DD796D1EBD4C69008D7EBE /* UIView+Utils.m in Sources */,
+				F4DD79811EBF693C008D7EBE /* TravelDatesViewController.m in Sources */,
+				F41B1B461ED24C9900F4451A /* CitiesService.m in Sources */,
+				F41B1B431ED21BEF00F4451A /* UIButton+tintImage.m in Sources */,
+				F41B1B4A1ED3443400F4451A /* WeatherService.m in Sources */,
+				F43B6F7F1ECF6F1500848DAB /* FlightAlertsManager.m in Sources */,
+				F4159CDF1EC9EF4C00DBA611 /* SBYCancellableDatePickerView.m in Sources */,
+				F43001A41EC4A99A00DBEBD2 /* SBYUnfoldingPicker.m in Sources */,
+				F449583E1ED0F147007EABED /* FoundFlightsTitleView.m in Sources */,
+				F4DD79711EBF4742008D7EBE /* RouteViewController.m in Sources */,
+				F4159CE41EC9F2FA00DBA611 /* SBYInitialDatePickerView.m in Sources */,
+				F41B1B581ED494C200F4451A /* WeatherHourView.m in Sources */,
+				F420E5BF1EC9AB9500D51B65 /* SBYDatePicker.m in Sources */,
+				F41ED30D1ECB67BC00302FD7 /* SBYAbstractDatePickerView.m in Sources */,
+				F4D75F121ECBB348005564B7 /* PassengersViewController.m in Sources */,
+				F43382C21ED5B53400AEBF12 /* WeatherDayTableHandler.m in Sources */,
+				F420E5B71EC8F4D200D51B65 /* UITableView+UnfoldingPicker.m in Sources */,
+				F4F3A8C51ECB3F6F00903160 /* SBYDatePickerPresentationController.m in Sources */,
+				F4EE8AF11EBD326C0089A03E /* AppDelegate.m in Sources */,
+				F41B1B4D1ED3463100F4451A /* FlightCity.m in Sources */,
+				F43129541EBFD629002DBEB6 /* UIViewController+Utils.m in Sources */,
+				F44958371ED0E1B7007EABED /* APIClient.m in Sources */,
+				F46ED8F51ECB145000306699 /* SBYModalDatePicker.m in Sources */,
+				F4EE8AEE1EBD326C0089A03E /* main.m in Sources */,
+				F41B1B601ED49C2A00F4451A /* WeatherHour.m in Sources */,
+				F43129601EC1ABBF002DBEB6 /* UIColor+Hex.m in Sources */,
+				F43129631EC1FE12002DBEB6 /* CityPickerTableHandler.m in Sources */,
+				F449583B1ED0E5B5007EABED /* FoundFlightsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4EE8AF51EBD326C0089A03E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EE8AF61EBD326C0089A03E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4EE8AFA1EBD326C0089A03E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EE8AFB1EBD326C0089A03E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4EE8AFE1EBD326C0089A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4EE8AFF1EBD326C0089A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4EE8B011EBD326C0089A03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB39B9F653F7413E56680B57 /* Pods-KODETestTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A7W9WBAQL6;
+				INFOPLIST_FILE = KODETestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aft3rmath.KODETestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4EE8B021EBD326C0089A03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5E1750D1F345A6273B13E3 /* Pods-KODETestTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A7W9WBAQL6;
+				INFOPLIST_FILE = KODETestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aft3rmath.KODETestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EE8AE41EBD326B0089A03E /* Build configuration list for PBXProject "KODETestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE8AFE1EBD326C0089A03E /* Debug */,
+				F4EE8AFF1EBD326C0089A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EE8B001EBD326C0089A03E /* Build configuration list for PBXNativeTarget "KODETestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EE8B011EBD326C0089A03E /* Debug */,
+				F4EE8B021EBD326C0089A03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4EE8AE11EBD326B0089A03E /* Project object */;
+}
